@@ -1,4 +1,4 @@
-import "isomorphic-fetch";
+import fetch from "cross-fetch";
 
 exports.sourceNodes = async ({ actions }) => {
   const { createNode } = actions; // Create nodes here, generally by downloading data
