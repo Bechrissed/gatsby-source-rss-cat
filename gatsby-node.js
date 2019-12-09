@@ -1,4 +1,4 @@
-import fetch from "cross-fetch";
+var fetch = require("cross-fetch");
 
 exports.sourceNodes = async ({ actions }) => {
   const { createNode } = actions; // Create nodes here, generally by downloading data
